@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# Akgun, Devrim. "A PyTorch Operations Based Approach for Computing Local Binary Patterns." U. Porto Journal of Engineering 7.4 (2021): 61-69.
 import torch
 #import os
 import torch.nn.functional as F
