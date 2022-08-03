@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sat Dec  5 10:55:11 2020
 
-@author: bilg
-"""
 import torch
 #import os
 import torch.nn.functional as F
