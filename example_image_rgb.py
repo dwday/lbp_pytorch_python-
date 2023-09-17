@@ -5,10 +5,9 @@
 Test file for rgb and grascale outputs  
 https://journalengineering.fe.up.pt/index.php/upjeng/article/view/2183-6493_007-004_0005/567
 """
-from lib.lbplib import lbp_py,lbp_pt
+from lib.lbplib import lbp_pt
 from PIL import Image
 import matplotlib.pyplot as plt
-import time
 import numpy as np
 import torch
 

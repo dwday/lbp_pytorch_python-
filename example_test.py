@@ -44,5 +44,5 @@ print('error=',np.sum(ypt[0,:,:]-ypy))
 
 print('python:')
 print(ypy)
-print('TensorFlow:')
+print('PyTorch:')
 print(ypt[0,:,:])    

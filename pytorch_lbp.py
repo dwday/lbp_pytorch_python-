@@ -8,7 +8,9 @@ import numpy as np
 #import time
 #os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
 print("torch.cuda.is_available():",torch.cuda.is_available())
-#------------------------------------------------------------------------------
+
+
+#- Python implementation of LBP transform -------------------------------------
 def lbp_python(Im): 
     
     sat=len(Im)
@@ -29,10 +31,10 @@ def lbp_python(Im):
             ( I[i-1,j-1]>= I[i,j] )*128;  
     
     return L
-#------------------------------------------------------------------------------
 
 
-def tc_lbp(x):
+#- PyTorch implementation of LBP transform ------------------------------------
+def lbp_torch(x):
     #pad image for 3x3 mask size
     x = F.pad(input=x, pad = [1, 1, 1, 1], mode='constant')
     b=x.shape
@@ -91,7 +93,7 @@ imgs=np.random.randint(0,256,(7,7))
 print(imgs)
 
 # Compute using pytorch
-y1=tc_lbp(torch.from_numpy(imgs.reshape(1,7,7)))
+y1=lbp_torch(torch.from_numpy(imgs.reshape(1,7,7)))
 # Compute using python
 y2=lbp_python(imgs)
 
