@@ -1,8 +1,8 @@
 # Fast local binary patterns - LBP feature extration using PyTorch
 
-**[Example LBP transform using PyTorch.ipynb](Example LBP transform using PyTorch.ipynb)** 
+**[Example_LBP_Cifar10.ipynb](Example_LBP_Cifar10.ipynb)** 
 
-**[Example LBP transform on Cifar10 dataset.ipynb](Example LBP transform on Cifar10 dataset.ipynb)** 
+**[Example_LBP_PyTorch.ipynb](Example_LBP_PyTorch.ipynb)** 
 
 ## Local Binary Patterns using PyTorch
 
