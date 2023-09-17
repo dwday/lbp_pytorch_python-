@@ -1,17 +1,17 @@
 # Fast local binary patterns - LBP feature extration using PyTorch
 
-# Local Binary Patterns using PyTorch
+## Local Binary Patterns using PyTorch
 
 ![alt text](img/img_org.jpg) 
 ![alt text](img/lbp_rgb.jpg)
 ![alt text](img/lbp_gray.jpg)
 
-# Example feature extration for Cifar10 dataset:
+## Example feature extration for Cifar10 dataset:
 ![alt text](img/FigureCifar10.jpg) 
 ![alt text](img/FigureCifar10_lbp.jpg)
 
 
-# Test:
+## Test:
 ![alt text](img/example_test.jpg)
 
 
